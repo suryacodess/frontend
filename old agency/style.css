@@ -1,0 +1,20 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.primary {
+  font-family: "PT Serif", serif;
+}
+
+.secondary {
+  font-family: "poppins", serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.notes::-webkit-scrollbar {
+  display: none;
+}

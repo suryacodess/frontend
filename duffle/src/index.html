@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7fd578f29d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Duffle</title>
+</head>
+
+<body class="bg-[#252422] text-[#ECE8DE] relative">
+
+    <header id="header" class="w-full">
+        <div class="max-w-[1450px] w-full mx-auto flex justify-between items-center px-5 py-3">
+            <div>
+                <h1 class="primary text-4xl">Duffle</h1>
+            </div>
+            <nav>
+                <ul class="flex items-center">
+                    <li>
+                        <button class="flex flex-col outline-none border-none">
+                            <span class="h-[1px] w-5 text-white bg-white"></span>
+                            <span class="h-[1px] w-5 my-[6px] text-white bg-white"></span>
+                            <span class="h-[1px] w-5 text-white bg-white"></span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- <main id="menu" class="menu w-full absolute z-50 bg-black hidden">
+        <div class="max-w-[1450px] w-full mx-auto px-5 py-12">
+            <div class="grid grid-cols-4 gap-5">
+                <div class="tab flex flex-col">
+                    <div class="img">
+                        <img class="rounded-xl"
+                            src="https://joshuvela.com/cdn/shop/files/stone_backpack_joshuvela.jpg?v=1665702721"
+                            alt="image">
+                    </div>
+                    <div class="title py-2 lg:py-5">
+                        <h1 class="text-2xl lg:text-4xl primary">Bags</h1>
+                        <ul>
+                            <li>TOTES</li>
+                            <li>BACKPACKS</li>
+                            <li>DUFFLES</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab flex flex-col">
+                    <div class="img">
+                        <img class="rounded-xl"
+                            src="https://joshuvela.com/cdn/shop/files/joshuvela_calypso_duffel.jpg?v=1665702371"
+                            alt="image">
+                    </div>
+                    <div class="title py-2 lg:py-5">
+                        <h1 class="text-2xl lg:text-4xl primary">Accesories</h1>
+                        <ul>
+                            <li>KEYHOOK</li>
+                            <li>WALLETS</li>
+                            <li>DOOP KITS</li>
+                            <li>LAPTOP</li>
+                            <li>TRAVEL</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab flex flex-col">
+                    <div class="img">
+                        <img class="rounded-xl"
+                            src="https://joshuvela.com/cdn/shop/files/Joshuvela_home_1000px.jpg?v=1632866791"
+                            alt="image">
+                    </div>
+                    <div class="title py-2 lg:py-5">
+                        <h1 class="text-2xl lg:text-4xl primary">Home</h1>
+                        <ul>
+                            <li>SMALL</li>
+                            <li>LARGE</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab flex flex-col">
+                    <div class="img">
+                        <img class="rounded-xl"
+                            src="https://joshuvela.com/cdn/shop/files/Joshuvela_sailcloth_tote_1000px_sq.jpg?v=1654360317"
+                            alt="image">
+                    </div>
+                    <div class="title py-2 lg:py-5">
+                        <h1 class="text-2xl lg:text-4xl primary">Material</h1>
+                        <ul>
+                            <li>CANVAS</li>
+                            <li>NYLON</li>
+                            <li>LEATHER</li>
+                            <li>SAILCLOTH</li>
+                            <li>MERINO</li>
+                            <li>BRASS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> -->
+
+    <main class="w-full pb-10">
+        <section class="max-w-[1450px] w-full mx-auto px-5">
+
+            <section class="block md:hidden">
+                <div class="text py-5">
+                    <h1 class="primary text-white text-4xl"><span class="italic">Grounded</span> in our senses,</h1>
+                    <h1 class="primary text-white text-4xl"><span class="italic">Liberated</span> by our creativity.
+                    </h1>
+                </div>
+            </section>
+
+
+            <!-- video  -->
+            <section class="w-full h-auto lg:h-[610px] rounded-xl overflow-hidden relative">
+                <div class="w-full">
+                    <video class="w-full h-[500px] lg:h-full object-cover" autoplay muted loop>
+                        <source
+                            src="https://joshuvela.com/cdn/shop/t/4/assets/jv-homepage-shorter-720p.mp4?v=162614924506003056911632854827"
+                            type="video/mp4">
+                    </video>
+                </div>
+                <div class="hidden md:block text absolute top-0 p-5">
+                    <h1 class="primary text-6xl"><span class="italic">Grounded</span> in our senses,</h1>
+                    <h1 class="primary text-6xl"><span class="italic">Liberated</span> by our creativity.</h1>
+                </div>
+            </section>
+            <!-- video section ends here -->
+
+
+            <!-- heading -->
+            <article class="w-full flex justify-center items-center py-20">
+                <div class="text max-w-[100%] lg:max-w-[70%] w-full mx-auto text-center">
+                    <h6 class="text-xs font-bold">ON QUIETNESS</h6>
+                    <h1 class="text-3xl md:text-5xl primary py-10">Inspired by quiet space - where design comes from the
+                        essence,
+                        cycles of distraction are broken,
+                        and
+                        clutter is cleared. Diving deeper.
+                    </h1>
+                    <div class="w-20 h-[2px] mx-auto mt-2 bg-white"></div>
+                </div>
+            </article>
+            <!-- heading section ends here -->
+
+
+            <!-- images -->
+            <section class="w-full lg:pb-20">
+                <section class="grid lg:grid-cols-2 gap-5">
+                    <div class="grid grid-cols-2 gap-5">
+                        <div class="img">
+                            <img class="rounded-xl" src="https://joshuvela.com/cdn/shop/files/chair.jpg?v=1632868022"
+                                alt="">
+                        </div>
+                        <div class="img lg:mt-52">
+                            <img class="rounded-xl"
+                                src="https://joshuvela.com/cdn/shop/files/pollara-rock.jpg?v=1632868035" alt="">
+                        </div>
+                    </div>
+                    <div class="img mt-10 lg:mt-24">
+                        <img class="rounded-xl" src="https://joshuvela.com/cdn/shop/files/sunset.jpg?v=1632868041"
+                            alt="">
+                    </div>
+                </section>
+            </section>
+            <!-- images section ends here -->
+
+
+            <!-- products -->
+            <section class="w-full py-20">
+                <div class="w-full h-[1px] bg-white">
+                </div>
+
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-5">
+                    <div class="tab flex flex-col">
+                        <div class="title py-2 lg:py-5">
+                            <h1 class="text-2xl lg:text-4xl primary">Backpacks</h1>
+                        </div>
+                        <div class="img">
+                            <img class="rounded-xl"
+                                src="https://joshuvela.com/cdn/shop/files/stone_backpack_joshuvela.jpg?v=1665702721"
+                                alt="image">
+                        </div>
+                    </div>
+                    <div class="tab flex flex-col">
+                        <div class="title py-2 lg:py-5">
+                            <h1 class="text-2xl lg:text-4xl primary">Duffles</h1>
+                        </div>
+                        <div class="img">
+                            <img class="rounded-xl"
+                                src="https://joshuvela.com/cdn/shop/files/joshuvela_calypso_duffel.jpg?v=1665702371"
+                                alt="image">
+                        </div>
+                    </div>
+                    <div class="tab flex flex-col">
+                        <div class="title py-2 lg:py-5">
+                            <h1 class="text-2xl lg:text-4xl primary">Home</h1>
+                        </div>
+                        <div class="img">
+                            <img class="rounded-xl"
+                                src="https://joshuvela.com/cdn/shop/files/Joshuvela_home_1000px.jpg?v=1632866791"
+                                alt="image">
+                        </div>
+                    </div>
+                    <div class="tab flex flex-col">
+                        <div class="title py-2 lg:py-5">
+                            <h1 class="text-2xl lg:text-4xl primary">Sailcloth</h1>
+                        </div>
+                        <div class="img">
+                            <img class="rounded-xl"
+                                src="https://joshuvela.com/cdn/shop/files/Joshuvela_sailcloth_tote_1000px_sq.jpg?v=1654360317"
+                                alt="image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full flex justify-center items-center my-6">
+                    <a href="./collections/products.html"
+                        class="secondary cursor-pointer text-sm bg-[#ECE8DE] hover:bg-[#C5A77C] text-black px-10 py-2 rounded-full">View
+                        All</a>
+                </div>
+
+                <div class="w-full h-[1px] bg-white">
+                </div>
+            </section>
+            <!-- products section ends here-->
+
+
+            <!-- articles -->
+            <article class="w-full py-10">
+                <div class="grid grid-cols-1 gap-20">
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2">
+                        <div class="text pt-2 md:pr-10">
+                            <h6 class="font-[400] text-sm secondary">ON STAYING GROUNDED</h6>
+                            <p class="primary text-4xl lg:text-5xl py-5">
+                                Grounded through daily practices that engage our senses — we create and surround
+                                ourselves
+                                with natural luxuries. In quiet space, free from storm, we are grounded.
+                            </p>
+                            <div class="w-20 h-[1px] mt-2 bg-white"></div>
+                        </div>
+                        <div class="img mt-10 lg:m-0">
+                            <img class="rounded-xl w-full"
+                                src="https://joshuvela.com/cdn/shop/files/aysia-stieb-orchid-2021.jpg?v=1632868079"
+                                alt="image">
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 lg:grid-cols-2">
+                        <div class="img order-last lg:order-first">
+                            <img class="rounded-xl w-full"
+                                src="https://joshuvela.com/cdn/shop/files/liberated.jpg?v=1632868096" alt="image">
+                        </div>
+                        <div class="text pt-2 mb-10 lg:m-0 lg:pl-10">
+                            <h6 class="font-[400] text-sm secondary">ON BEING LIBERATED</h6>
+                            <p class="primary text-4xl lg:text-5xl py-5">
+                                Liberated by our individual expression and the gift of creation. True growth comes from
+                                inspiration and excitement. Through self-reflection and self-reliance, we are liberated.
+                            </p>
+                            <div class="w-20 h-[1px] mt-2 bg-white"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+            <!-- articles section ends here -->
+
+
+        </section>
+    </main>
+
+    <!-- footer  -->
+    <footer class="w-full bg-black text-white py-20">
+        <div class="max-w-[1450px] w-full mx-auto px-5">
+            <div class="grid grid-cols-1 lg:grid-cols-4">
+                <div>
+                    <h1 class="primary text-4xl font-[800]">Ecom</h1>
+                </div>
+                <div class="py-5 md:p-0">
+                    <ul>
+                        <li class="text-xs cursor-pointer">SHIPPING, RETURNS & FAQS</li>
+                        <li class="text-xs cursor-pointer">CONTACT US</li>
+                        <li class="text-xs cursor-pointer">WHOLESALE</li>
+                        <li class="text-xs cursor-pointer">CUSTOM PROJECTS</li>
+                        <li class="text-xs cursor-pointer">SOCIAL</li>
+                    </ul>
+                </div>
+                <div class="py-5 md:p-0">
+                    <ul>
+                        <li class="text-xs cursor-pointer">ABOUT</li>
+                        <li class="text-xs cursor-pointer">MATERIAL STORIES</li>
+                        <li class="text-xs cursor-pointer">PRIVACY POLICY</li>
+                        <li class="text-xs cursor-pointer">TERMS OF SERVICE</li>
+                        <li class="text-xs cursor-pointer">SOCIAL</li>
+                    </ul>
+                </div>
+                <div class="py-5 md:p-0">
+                    <div>
+                        <label for="subscribe" class="text-3xl primary leading-[100%]">Subscribe for updates &
+                            inspiration</label>
+                        <div class="flex w-full">
+                            <input required placeholder="Enter Email"
+                                style="border-bottom:1px solid #fff;background-color: black;color:white"
+                                class="max-w-[80%] w-full outline-none border-none text-black py-1" type="text"
+                                id="subscribe">
+                            <button class="max-w-[20%] w-full"><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends here  -->
+
+</body>
+
+</html>

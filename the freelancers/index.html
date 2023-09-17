@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="style.css">
+    <title>The Freelancers</title>
+</head>
+
+<body>
+
+    <main class="w-full">
+        <div class="main-inner max-w-[1400px] w-full mx-auto px-5">
+            <header class="w-full flex justify-between items-center py-5">
+                <div class="logo w-8 h-8">
+                    <svg viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8.07883 0.137329C8.35433 0.156127 8.56243 0.394705 8.54363 0.670206L8.44633 2.09624C8.43088 2.32269 8.61857 2.51085 8.84506 2.49596L17.4306 1.93149C17.7061 1.91338 17.9442 2.12207 17.9623 2.39761L18.0935 4.39331C18.1116 4.66885 17.9029 4.90691 17.6274 4.92503L8.53827 5.5226C8.3509 5.53492 8.20153 5.68393 8.18874 5.87127L7.98183 8.90377C7.96905 9.09101 8.09666 9.25886 8.28049 9.29663L14.4764 10.5695C14.7469 10.6251 14.9211 10.8894 14.8656 11.1599L14.4631 13.119C14.4075 13.3895 14.1432 13.5637 13.8727 13.5082L8.17381 12.3374C7.95137 12.2917 7.73968 12.4526 7.72422 12.6792L7.38636 17.6307C7.36756 17.9062 7.12898 18.1143 6.85348 18.0955L4.85812 17.9594C4.58262 17.9406 4.37452 17.702 4.39332 17.4265L4.76572 11.9687C4.7785 11.7815 4.65089 11.6136 4.46705 11.5758L2.25669 11.1217C1.98619 11.0662 1.81197 10.8018 1.86754 10.5314L2.27002 8.57227C2.32559 8.30178 2.58992 8.12755 2.86041 8.18312L4.57373 8.53511C4.79618 8.58081 5.00787 8.41987 5.02333 8.19331L5.16135 6.17056C5.1768 5.9441 4.98911 5.75595 4.76262 5.77084L0.664031 6.0403C0.388483 6.05842 0.150422 5.84973 0.132305 5.57418L0.0010957 3.57849C-0.0170206 3.30294 0.191669 3.06488 0.467216 3.04677L5.0694 2.74419C5.25677 2.73187 5.40615 2.58287 5.41893 2.39553L5.55059 0.465982C5.56939 0.19048 5.80797 -0.0176186 6.08347 0.00117966L8.07883 0.137329Z"
+                            fill="currentColor"></path>
+                    </svg>
+                </div>
+                <nav>
+                    <ul class="flex items-center">
+                        <li class="ml-5 text-sm">About</li>
+                        <li class="ml-5"><button
+                                class="py-2 px-3 bg-black text-white rounded-lg text-sm">Submit</button></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="w-full pt-10 md:pt-20">
+                <div class="text-center md:max-w-[730px] w-full mx-auto" style="letter-spacing: -2px;">
+                    <h1 class="text-4xl md:text-[60px] leading-[100%] font-[400]">Things for freelancers <span
+                            class="text-gray-500">sent to your inbox weekly</span></h1>
+                </div>
+                <div class="w-full mx-auto flex py-10">
+                    <div class="md:flex max-w-[450px] h-12 w-full items-center mx-auto">
+                        <div class="w-full h-full">
+                            <input type="email" autocomplete="off"
+                                class="w-full h-full rounded-lg outline-none border-none pl-5" placeholder="Your email"
+                                style="border:1px solid black">
+                        </div>
+                        <div class="mt-5 md:m-5 h-full w-full md:w-[150px]">
+                            <button
+                                class="h-full w-full text-sm font-[500] from-fuchsia-50 rounded-lg bg-black text-white outline-none border-none px-5">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div class="hidden justify-around py-5">
+                    <div class="flex justify-center items-center">
+                        <button id="btn" value="all"
+                            class="bg-black text-white py-2 px-5 text-sm rounded-full">All</button>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <button id="btn" value="tools"
+                            class="bg-black text-white py-2 px-5 text-sm rounded-full">Tools</button>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <button id="btn" value="community" class="bg-black text-white py-2 px-5 text-sm rounded-full">
+                            Community</button>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <button id="btn" value="podcast"
+                            class="bg-black text-white py-2 px-5 text-sm rounded-full">Podcast</button>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <button id="btn" value="books"
+                            class="bg-black text-white py-2 px-5 text-sm rounded-full">Books</button>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <button id="btn" value="tweets"
+                            class="bg-black text-white py-2 px-5 text-sm rounded-full">Tweets</button>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <button id="btn" value="article"
+                            class="bg-black text-white py-2 px-5 text-sm rounded-full">Article</button>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <button id="btn" value="videos"
+                            class="bg-black text-white py-2 px-5 text-sm rounded-full">videos</button>
+                    </div>
+                </div>
+
+                <div id="data" class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-10">
+
+                </div>
+            </section>
+
+
+            <footer class="w-full flex justify-center items-center flex-col mt-20 py-32">
+                <div class="flex justify-center items-center flex-col mx-auto">
+                    <div class="logo w-12 h-12">
+                        <svg viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.07883 0.137329C8.35433 0.156127 8.56243 0.394705 8.54363 0.670206L8.44633 2.09624C8.43088 2.32269 8.61857 2.51085 8.84506 2.49596L17.4306 1.93149C17.7061 1.91338 17.9442 2.12207 17.9623 2.39761L18.0935 4.39331C18.1116 4.66885 17.9029 4.90691 17.6274 4.92503L8.53827 5.5226C8.3509 5.53492 8.20153 5.68393 8.18874 5.87127L7.98183 8.90377C7.96905 9.09101 8.09666 9.25886 8.28049 9.29663L14.4764 10.5695C14.7469 10.6251 14.9211 10.8894 14.8656 11.1599L14.4631 13.119C14.4075 13.3895 14.1432 13.5637 13.8727 13.5082L8.17381 12.3374C7.95137 12.2917 7.73968 12.4526 7.72422 12.6792L7.38636 17.6307C7.36756 17.9062 7.12898 18.1143 6.85348 18.0955L4.85812 17.9594C4.58262 17.9406 4.37452 17.702 4.39332 17.4265L4.76572 11.9687C4.7785 11.7815 4.65089 11.6136 4.46705 11.5758L2.25669 11.1217C1.98619 11.0662 1.81197 10.8018 1.86754 10.5314L2.27002 8.57227C2.32559 8.30178 2.58992 8.12755 2.86041 8.18312L4.57373 8.53511C4.79618 8.58081 5.00787 8.41987 5.02333 8.19331L5.16135 6.17056C5.1768 5.9441 4.98911 5.75595 4.76262 5.77084L0.664031 6.0403C0.388483 6.05842 0.150422 5.84973 0.132305 5.57418L0.0010957 3.57849C-0.0170206 3.30294 0.191669 3.06488 0.467216 3.04677L5.0694 2.74419C5.25677 2.73187 5.40615 2.58287 5.41893 2.39553L5.55059 0.465982C5.56939 0.19048 5.80797 -0.0176186 6.08347 0.00117966L8.07883 0.137329Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="max-w-[200px] w-full mt-10">
+                        <ul class="text-center">
+                            <li class="py-2">Articles </li>
+                            <li class="py-2">Books</li>
+                            <li class="py-2">Communities</li>
+                            <li class="py-2">Tools</li>
+                            <li class="py-2">Podcasts</li>
+                            <li class="py-2">Tweets</li>
+                            <li class="py-2">Videos</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center mx-auto mt-10">
+                    <p>Made By Surya Prakash</p>
+                    <small>Built in Html and Tailwind</small>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

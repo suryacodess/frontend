@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background: #000;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.secondary {
+  font-family: "Cormorant Garamond", serif;
+}

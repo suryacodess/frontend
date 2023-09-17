@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7fd578f29d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./sass/style.css">
+    <title>zapier</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="w-full p-3 fixed bg-white z-50">
+        <div class="w-[100%] max-w-[1200px] header-inner flex justify-between items-center m-auto">
+            <div class="header-left flex items-center">
+                <div class="logo">
+                    <h3 class="text-2xl font-bold"><span class="text-[#FF4F00]">_</span>zapier</h3>
+                </div>
+                <nav class="hidden lg:block logo-menu">
+                    <ul class="flex">
+                        <li class="ml-4">Product</li>
+                        <li class="ml-4">Solutions</li>
+                        <li class="ml-4">Resource & Support</li>
+                        <li class="ml-4">Pricing</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <nav class="header-right">
+                <ul class="flex items-center">
+                    <li class="ml-5 hidden sm:block">Contact Sales</li>
+                    <li class="ml-5 hidden sm:block">Log in</li>
+                    <li class="ml-5"><button class="px-5 py-2 bg-[#FF4F00] text-white rounded-2xl font-bold">Sign
+                            up</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header ends here -->
+
+    <!-- main -->
+    <main class="main w-full h-screen">
+        <!-- hero -->
+        <section class="w-full max-w-[1200px] mx-auto hero flex flex-col text-center pt-24 md:pt-48">
+            <div class="hero-text flex justify-center items-center flex-col max-w-2xl md:max-w-4xl w-full mx-auto px-5 ">
+                <h1 class="text-4xl sm:text-[80px] leading-[100%] font-bold">Easier automation, bigger impact</h1>
+                <p class="mt-12 text-xl font-bolder">zapier connects your tools to streamline your mission-critical
+                    processes.</p>
+                <div class="hero-btn mt-8">
+                    <button class="m-2 px-12 py-3 rounded-full bg-[#FF4F00] text-white">Start free with email</button>
+                    <button class="m-2 px-12 py-3 rounded-full bg-[#FF4F00] text-white">Start free with Google</button>
+                </div>
+                <div class="md:flex mt-10">
+                    <p class="mx-4 text-xs md:text-base"><i class="fa-solid fa-check mr-2"></i><span
+                            class="font-[600]">Free forever</span>
+                        for core features</p>
+                    <p class="mx-4 text-xs md:text-base"><i class="fa-solid fa-check mr-2"></i><span
+                            class="font-[600]">More apps</span> than
+                        any other platform</p>
+                </div>
+            </div>
+        </section>
+        <!-- hero ends here -->
+
+        <!-- video -->
+        <!-- <section class="video w-full max-w-[1200px] mx-auto hero flex flex-col text-center mt-6">
+            <div class="video-inner w-full">
+                <video class="w-full" controls>
+                    <source src="
+            https://res.cloudinary.com/zapier-media/video/upload/q_auto/f_auto/v1686662583/Homepage/automation_isnt_magic_wf4k5d.mp4
+                " type="video/mp4">
+                    <source src="
+            https://res.cloudinary.com/zapier-media/video/upload/q_auto/f_auto/v1686662583/Homepage/automation_isnt_magic_wf4k5d.mp4
+                " type="video/ogg">
+                </video>
+            </div>
+        </section> -->
+        <!-- video ends here -->
+
+        <!-- cards -->
+        <section class="cards w-full py-12 md:py-40">
+            <div class="cards-inner max-w-[1200px] m-auto px-5 lg:px-0">
+                <div class="card md:flex justify-between items-center">
+                    <div class="img md:max-w-[560px]">
+                        <img class="w-full"
+                            src="https://res.cloudinary.com/zapier-media/image/upload/q_auto/f_auto/v1686783449/Homepage/zapier-home-usecase_syh9ch.png"
+                            alt="">
+                    </div>
+                    <div class="text max-w-[550px] py-2 px-2">
+                        <h1 class="leading-[120%] text-[26px] lg:text-4xl font-[500]">Build custom workflows in minutes
+                        </h1>
+                        <p class="py-2 md:py-10 text-sm md:text-xl">Automate the busywork, so you can focus on your job,
+                            not your tools.
+                            We'll show you how.</p>
+                        <p>
+                            <a href="#" class="font-[500] underline mr-1 hover:mr-2 transition-all ">
+                                Explore use cases
+                            </a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card md:flex justify-between items-center py-8 md:py-40">
+                    <div class="img md:max-w-[560px]">
+                        <img class="w-full"
+                            src="https://res.cloudinary.com/zapier-media/image/upload/q_auto/f_auto/v1686783449/Homepage/zapier-home-hiw_vxz8us.png"
+                            alt="">
+                    </div>
+                    <div class="text max-w-[550px] py-2 px-2">
+                        <h1 class="leading-[120%] text-[26px] lg:text-4xl font-[500]">Get more power from your tools
+                        </h1>
+                        <p class="py-2 md:py-10 text-sm md:text-xl">
+                            Get more power from your tools
+                            Integrate your critical work apps into workflows, reclaim your time, and focus on impactful
+                            work.</p>
+                        <p>
+                            <a href="#" class="font-[500] underline mr-1 hover:mr-2 transition-all ">
+                                Learn how zapier works
+                            </a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card md:flex justify-between items-center">
+                    <div class="img md:max-w-[560px]">
+                        <img class="w-full rounded-3xl"
+                            src="https://res.cloudinary.com/zapier-media/image/upload/q_auto/f_auto/v1686658565/Homepage/Turn_Static_s9fi7l.png"
+                            alt="card-image">
+                    </div>
+                    <div class="text max-w-[550px] py-2 px-2">
+                        <h1 class="leading-[120%] text-[26px] lg:text-4xl font-[500]">Connect the apps you already love
+                        </h1>
+                        <p class="py-2 md:py-10 text-sm md:text-xl">Zapier supports more apps than any other platform,
+                            so you can optimize
+                            the tools you use.</p>
+                        <p>
+                            <a href="#" class="font-[500] underline mr-1 hover:mr-2 transition-all ">
+                                Explore the app
+                            </a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cards ends here -->
+
+        <div class="divider max-w-[1200px] bg-black m-auto h-[2px]"></div>
+
+        <!-- cards 2 -->
+        <section class="cards-2 w-full py-20">
+            <div class="cards-2-inner px-5 lg:px-0 max-w-[1200px] m-auto">
+                <div class="heading md:py-10 md:text-center font-[500]">
+                    <h1 class="leading-[120%] text-[26px] font-bold md:text-6xl">Bring the power of AI to Zapier</h1>
+                </div>
+                <div class="cards md:pt-16 flex justify-between flex-wrap">
+                    <div class="card my-7 md:my-0 flex flex-col justify-between  h-auto w-[350px]">
+                        <h3 class="leading-[120%] text-[20px] md:text-2xl font-bold">Build Zaps in plain English</h3>
+                        <p class="py-2 md:py-5">Simply describe what you'd like to automate, and our AI tools will write
+                            the
+                            code and build
+                            your Zaps for you.
+                        </p>
+                        <p>
+                            <a href="#" class="font-[500] underline mr-1 hover:mr-2 transition-all ">
+                                Build now
+                            </a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                    </div>
+
+                    <div class="card  my-7 md:my-0 flex flex-col justify-between h-auto w-[350px]">
+                        <h3 class="leading-[120%] text-[20px] md:text-2xl font-bold">Access Zapier in ChatGPT</h3>
+                        <p class="py-2 md:py-5"> Automate tasks directly within ChatGPT's interface. Ask ChatGPT to
+                            execute any
+                            of Zapier's 30K actions.
+                        </p>
+                        <p>
+                            <a href="#" class="font-[500] underline mr-1 hover:mr-2 transition-all ">
+                                Start automating
+                            </a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                    </div>
+
+                    <div class="card  my-7 md:my-0 flex flex-col justify-between h-auto  w-[350px]">
+                        <h3 class="leading-[120%] text-[20px] md:text-2xl font-bold">Power your apps with AI</h3>
+                        <p class="py-2 md:py-5">Bring AI tools like OpenAI to the apps you use daily. Explore our 30+
+                            AI app
+                            partners to power critical processes.
+                        </p>
+                        <p>
+                            <a href="#" class="font-[500] underline mr-1 hover:mr-2 transition-all ">
+                                Try it for free
+                            </a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cards 2 ends here -->
+
+        <!-- signup -->
+        <section class="signup w-full mt-0 md:mt-10 ">
+            <div class="signup-inner rounded-sm px-5 lg:px-0 bg-[#CDE4E1] flex justify-center items-center ">
+                <div class="text py-14 md:py-[100px] text-center">
+                    <p class="text-4xl lg:text-6xl py-7 max-w-[700px]">
+                        1.8 million+ businesses feel the magic
+                    </p>
+                    <button class="bg-[#FF4F00] text-white px-4 py-2 rounded-full">Sign up for free</button>
+                </div>
+            </div>
+        </section>
+        <!-- signup ends here -->
+
+        <!-- branding -->
+        <section class="branding w-full">
+            <div class="branding-inner py-20 m-auto flex justify-center items-center text-center max-w-[1200px]">
+                <h3 class="text-[60px] sm:text-[100px] md:text-[150px] lg:text-[200px] xl:text-[300px] font-bold"><span
+                        class="text-[#FF4F00]">_</span>zapier</h3>
+            </div>
+        </section>
+        <!-- branding ends here -->
+
+        <!-- footer -->
+        <footer class="footer w-full">
+            <div class="footer-inner px-5 lg:px-0 max-w-[1200px] m-auto pb-4 md:pb-9">
+                <div class="top lg:flex justify-between items-center">
+                    <ul class="m-0  social w-16 sm:flex  items-center">
+                        <li class="">Follow us</li>
+                        <li><a aria-label="Follow us on Facebook" href="#" rel="noopener noreferrer"
+                                title="Follow us on Facebook" data-testid="Follow us on Facebook"><span
+                                    class="css-1wt7ln0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512">
+                                        <path
+                                            d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229">
+                                        </path>
+                                    </svg></span></a></li>
+                        <li><a aria-label="Follow us on LinkedIn"
+                                href="http://www.linkedin.com/company/zapier/?utm_source=zapier.com&amp;amp;utm_medium=referral&amp;amp;utm_campaign=zapier"
+                                rel="noopener noreferrer" title="Follow us on LinkedIn"
+                                data-testid="Follow us on LinkedIn"><span class="css-1wt7ln0"><svg viewBox="0 0 44 40"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M44 40h-9.725V25.938c0-3.68-1.52-6.193-4.866-6.193-2.558 0-3.981 1.696-4.643 3.33-.249.586-.21 1.403-.21 2.22V40h-9.634s.124-24.909 0-27.173h9.634v4.265c.57-1.865 3.648-4.526 8.56-4.526C39.211 12.566 44 16.474 44 24.89V40zM5.18 9.428h-.063C2.013 9.428 0 7.351 0 4.718 0 2.034 2.072 0 5.239 0c3.164 0 5.11 2.029 5.171 4.71 0 2.633-2.007 4.718-5.23 4.718zm-4.07 3.399h8.576V40H1.11V12.827z"
+                                            fill-rule="evenodd"></path>
+                                    </svg></span></a></li>
+                        <li><a aria-label="Subscribe to our blog" href="#" title="Subscribe to our blog"
+                                data-testid="Subscribe to our blog"><span class="css-1wt7ln0"><svg
+                                        viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M576 1344q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zm512 123q2 28-17 48-18 21-47 21H889q-25 0-43-16.5t-20-41.5q-22-229-184.5-391.5T250 902q-25-2-41.5-20T192 839V704q0-29 21-47 17-17 43-17h5q160 13 306 80.5T826 902q114 113 181.5 259t80.5 306zm512 2q2 27-18 47-18 20-46 20h-143q-26 0-44.5-17.5T1329 1476q-12-215-101-408.5t-231.5-336-336-231.5T252 398q-25-1-42.5-19.5T192 335V192q0-28 20-46 18-18 44-18h3q262 13 501.5 120T1186 542q187 186 294 425.5t120 501.5z">
+                                        </path>
+                                    </svg></span></a></li>
+                        <li><a aria-label="Follow @zapier on Twitter" href="#" rel="noopener noreferrer"
+                                title="Follow @zapier on Twitter" data-testid="Follow @zapier on Twitter"><span
+                                    class="css-1wt7ln0"><svg viewBox="0 0 48 40" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M48 4.735a19.235 19.235 0 0 1-5.655 1.59A10.076 10.076 0 0 0 46.675.74a19.395 19.395 0 0 1-6.257 2.447C38.627 1.225 36.066 0 33.231 0c-5.435 0-9.844 4.521-9.844 10.098 0 .791.085 1.56.254 2.3C15.456 11.974 8.2 7.96 3.34 1.842a10.281 10.281 0 0 0-1.33 5.083c0 3.502 1.738 6.593 4.38 8.405a9.668 9.668 0 0 1-4.462-1.26v.124c0 4.894 3.395 8.977 7.903 9.901a9.39 9.39 0 0 1-2.595.356 9.523 9.523 0 0 1-1.854-.18c1.254 4.01 4.888 6.932 9.199 7.01-3.37 2.71-7.618 4.325-12.23 4.325-.795 0-1.58-.047-2.35-.139C4.359 38.327 9.537 40 15.096 40c18.115 0 28.019-15.385 28.019-28.73 0-.439-.009-.878-.026-1.308A20.211 20.211 0 0 0 48 4.735"
+                                            fill-rule="evenodd"></path>
+                                    </svg></span></a></li>
+                        <li><a aria-label="See helpful Zapier videos on Youtube" href="#" rel="noopener noreferrer"
+                                title="See helpful Zapier videos on Youtube"
+                                data-testid="See helpful Zapier videos on Youtube"><span class="css-1wt7ln0"><svg
+                                        viewBox="0 0 48 34" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M19.044 23.27l-.002-13.582 12.97 6.814-12.968 6.768zM47.52 7.334s-.47-3.33-1.908-4.798C43.786.61 41.74.601 40.803.49 34.086 0 24.011 0 24.011 0h-.022S13.914 0 7.197.49c-.939.11-2.983.12-4.81 2.045C.948 4.003.48 7.334.48 7.334S0 11.247 0 15.158v3.668c0 3.912.48 7.823.48 7.823s.468 3.331 1.907 4.798c1.827 1.926 4.225 1.866 5.293 2.067C11.52 33.885 24 34 24 34s10.086-.015 16.803-.505c.938-.113 2.983-.122 4.809-2.048 1.438-1.467 1.908-4.798 1.908-4.798s.48-3.91.48-7.823v-3.668c0-3.911-.48-7.824-.48-7.824z"
+                                            fill-rule="evenodd"></path>
+                                    </svg></span></a></li>
+                    </ul>
+
+                    <nav>
+                        <ul class=" md:flex mt-10 md:mt-3 flex-wrap">
+                            <li class="lg:ml-5 list-none cursor-pointer text-slate-900">Pricing</li>
+                            <li class="lg:ml-5 list-none cursor-pointer text-slate-900">Help</li>
+                            <li class="lg:ml-5 list-none cursor-pointer text-slate-900">Developer Platform</li>
+                            <li class="lg:ml-5 list-none cursor-pointer text-slate-900">Press</li>
+                            <li class="lg:ml-5 list-none cursor-pointer text-slate-900">Jobs</li>
+                            <li class="lg:ml-5 list-none cursor-pointer text-slate-900">zapier for Companies</li>
+                            <li class="lg:ml-5 list-none cursor-pointer text-slate-900">Transfer</li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="bottom flex-row-reverse md:flex justify-between items-center pt-14">
+                    <div class="logo">
+                        <h3 class="text-2xl font-bold"><span class="text-[#FF4F00]">_</span>zapier</h3>
+                    </div>
+                    <div class="rights my-10 text-xs md:text-base md:m-0">
+                        <p>© 2023 Zapier Inc.</p>
+                        <p>All rights reserved to Zapier Inc.</p>
+                        <p>Honest attempt to clone Zapier website.</p>
+                        <p>Developed by Surya Prakash.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </footer>
+
+    </main>
+
+
+
+</body>
+
+</html>
