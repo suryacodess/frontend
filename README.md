@@ -8,7 +8,7 @@ This repo contains frontend projects developed with frontend technologies like H
 
 
 ## projects links -
-[berserk](https://github.com/suryacodess/frontend/tree/main/berserk)) 
+[berserk](https://github.com/suryacodess/frontend/tree/main/berserk) 
 [chan&chan](https://github.com/suryacodess/frontend/tree/main/chanchan)
 [duffle](https://github.com/suryacodess/frontend/tree/main/duffle)
 [old agency](https://github.com/suryacodess/frontend/tree/main/old%20agency)
