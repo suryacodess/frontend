@@ -1,6 +1,12 @@
 # frontend
 This repo contains frontend projects developed with frontend technologies like Html5, Css3, Javascript, TailwindCSS, and Parcel.
 
+# To run the application on your local computer - 
+- First clone this project using the "git clone" command or download the zip file from GitHub.
+- Install npm modules by using the "npm i" command
+- Then open it in VS Code and open the Html file with live server mode.
+
+
 ## projects links - 
 berserk - https://berserkguts.netlify.app/
 chan&chan - https://chanandchan.netlify.app
