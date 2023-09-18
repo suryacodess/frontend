@@ -7,13 +7,12 @@ This repo contains frontend projects developed with frontend technologies like H
 - Then open it in VS Code and open the Html file with live server mode.
 
 
-## projects links - 
-berserk - [berserk](https://berserkguts.netlify.app/) .
-chan&chan - https://chanandchan.netlify.app
-google keep clone - https://gkeep-clone.netlify.app/
-duffle - https://duffle.netlify.app
-old agency - https://oldagency.netlify.app/
-portfolio - https://suryadev.netlify.app
-the freelancers - https://thefreelancers.netlify.app/
-zapier - https://zapierclone.netlify.app/
+## projects links -
+[berserk](https://github.com/suryacodess/frontend/tree/main/berserk)) 
+[chan&chan](https://github.com/suryacodess/frontend/tree/main/chanchan)
+[duffle](https://github.com/suryacodess/frontend/tree/main/duffle)
+[old agency](https://github.com/suryacodess/frontend/tree/main/old%20agency)
+[portfolio](https://github.com/suryacodess/frontend/tree/main/portfolio)
+[the freelancers](https://github.com/suryacodess/frontend/tree/main/the%20freelancers)
+[zapier](https://github.com/suryacodess/frontend/tree/main/zapier)
 
