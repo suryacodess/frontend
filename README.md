@@ -8,7 +8,7 @@ This repo contains frontend projects developed with frontend technologies like H
 
 
 ## projects links - 
-berserk - https://berserkguts.netlify.app/
+berserk - [berserk](https://berserkguts.netlify.app/) .
 chan&chan - https://chanandchan.netlify.app
 google keep clone - https://gkeep-clone.netlify.app/
 duffle - https://duffle.netlify.app
