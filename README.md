@@ -1,5 +1,5 @@
 # frontend
-This repo contains frontend projects
+This repo contains frontend projects developed with frontend technologies like Html5, Css3, Javascript, TailwindCSS, and Parcel.
 
 ## projects links - 
 berserk - https://berserkguts.netlify.app/
